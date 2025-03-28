@@ -1,0 +1,84 @@
+body {
+    background: rgb(25, 25, 25);
+    color: white;
+    font-family: "Lexend", sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: clamp(30px, 10vw, 75px);
+    margin-bottom: 0;
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.progress-bar {
+    width: 100%;
+    max-width: 600px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    margin-top: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.progress {
+    height: 100%;
+    background: #fff;
+    width: 0%;
+    border-radius: 4px;
+    transition: width 0.1s;
+}
+
+.material-icons-outlined.md-36 {
+    font-size: 36px;
+}
+
+* {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.playlist {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.playlist-item {
+    cursor: pointer;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.playing {
+    background-color: rgba(255, 215, 0, 0.3);
+    color: rgb(255, 225, 0);
+    font-weight: bold;
+}
+
+#play,
+#pause {
+    color: rgb(255, 225, 0);
+}
