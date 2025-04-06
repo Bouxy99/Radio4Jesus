@@ -13,7 +13,8 @@ let isDragging = false;
 
 const playlist = {
     1: { id: 1, name: "Trouver son amour", file: "audio/Trouver_son_amour.mp3", date:'2025-03-21' },
-    2: { id: 2, name: "Psaumes 33", file: "audio/Psaumes_33.mp3", date:'2025-03-28' }
+    2: { id: 2, name: "Psaumes 33", file: "audio/Psaumes_33.mp3", date:'2025-03-28' },
+    3: { id: 3, name: "Les murs tombent", file: "audio/Les_murs_tombent.mp3", date:'2025-04-06' }
 }
 
 const playlistLength = Object.keys(playlist).length;
