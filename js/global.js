@@ -15,7 +15,8 @@ const playlist = {
     1: { id: 1, name: "Trouver son amour", file: "audio/Trouver_son_amour.mp3", date:'2025-03-21' },
     2: { id: 2, name: "Psaumes 33", file: "audio/Psaumes_33.mp3", date:'2025-03-28' },
     3: { id: 3, name: "Les murs tombent", file: "audio/Les_murs_tombent.mp3", date:'2025-04-06' },
-    4: { id: 4, name: "Un horizon meilleur", file: "audio/Un_horizon_meilleur.mp3", date:'2025-04-14' }
+    4: { id: 4, name: "Un horizon meilleur", file: "audio/Un_horizon_meilleur.mp3", date:'2025-04-14' },
+    5: { id: 5, name: "Dieu si grand", file: "audio/Dieu_si_grand.mp3", date:'2025-04-18' }
 }
 
 const playlistLength = Object.keys(playlist).length;
