@@ -1,0 +1,62 @@
+/* From Uiverse.io by JkHuger */ 
+.toggle-checkbox {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.toggle-slot {
+  font-size: 10px;
+  position: relative;
+  height: 3.5em;
+  width: 7em;
+  border: 0px solid transparent; 
+  border-radius: 10em;
+  background-color: white;
+  transition: background-color 250ms;
+}
+
+.toggle-checkbox:checked ~ .toggle-slot {
+  background-color: rgb(203, 203, 203);
+}
+
+.toggle-button {
+  transform: translate(0.3em, 0.25em);
+  position: absolute;
+  height: 3em;
+  width: 3em;
+  border-radius: 50%;
+  background-color: rgb(255, 236, 207);
+  box-shadow: inset 0px 0px 0px 0.75em rgb(255, 187, 82);
+  transition: background-color 250ms, border-color 250ms, transform 500ms cubic-bezier(.26,2,.46,.71);
+}
+
+.toggle-checkbox:checked ~ .toggle-slot .toggle-button {
+  background-color: rgb(255, 255, 255);
+  box-shadow: inset 0px 0px 0px 0.75em rgb(10, 50, 175);
+  transform: translate(3.65em, 0.25em);
+}
+
+.sun-icon {
+  position: absolute;
+  height: 6em;
+  width: 6em;
+  color: #ffbb52;
+}
+
+.sun-icon-wrapper {
+  position: absolute;
+  height: 6em;
+  width: 6em;
+  opacity: 1;
+  transform: translate(2em, 2em) rotate(15deg);
+  transform-origin: 50% 50%;
+  transition: opacity 150ms, transform 500ms cubic-bezier(.26,2,.46,.71);
+}
+
+.toggle-checkbox:checked ~ .toggle-slot .sun-icon-wrapper {
+  opacity: 0;
+  transform: translate(3em, 2em) rotate(0deg);
+}

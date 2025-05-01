@@ -1,6 +1,6 @@
 function loadTrack(trackIndex) {
     currentTrack = trackIndex;
-    audio.src = playlist[trackIndex].file;
+    audio.src = activePlaylist[trackIndex].file;
     audio.load();
     audio.play();
     isPlaying = true;
