@@ -6,6 +6,7 @@ body {
     justify-content: center;
     margin: 0;
     flex-direction: column;
+	height: 100%;
 }
 
 h1 {
@@ -14,9 +15,11 @@ h1 {
 }
 
 .container {
+	position: relative;
     text-align: center;
     width: 80%;
     max-width: 500px;
+	min-height: 100dvh;
 }
 
 .controls {
@@ -69,4 +72,11 @@ h1 {
 
 .playing {
     font-weight: bold;
+}
+
+.switch-tool {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 10px;
 }
