@@ -24,7 +24,8 @@ const playlist = {
 const playlist_remix = {
     1: { id: 1.1, name: "Trouver son amour", file: "audio/remix/Trouver_son_amour_REMIX.mp3", date:'2025-05-01' },
     2: { id: 2.1, name: "Psaumes 33", file: "audio/remix/Psaumes_33_REMIX.mp3", date:'2025-05-04' },
-    3: { id: 4.1, name: "Un horizon meilleur", file: "audio/remix/Un_horizon_meilleur_REMIX.mp3", date:'2025-05-01' }
+    3: { id: 4.1, name: "Un horizon meilleur", file: "audio/remix/Un_horizon_meilleur_REMIX.mp3", date:'2025-05-01' },
+    4: { id: 5.1, name: "Dieu si grand", file: "audio/remix/Dieu_si_grand_REMIX.mp3", date:'2025-05-05' }
 }
 
 let activePlaylist = playlist;
