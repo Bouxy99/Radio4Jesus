@@ -18,7 +18,8 @@ const playlist = {
     3: { id: 3, name: "Les murs tombent", file: "audio/Les_murs_tombent.mp3", date:'2025-04-06' },
     4: { id: 4, name: "Un horizon meilleur", file: "audio/Un_horizon_meilleur.mp3", date:'2025-04-14', remix:"audio/remix/Un_horizon_meilleur_REMIX.mp3" },
     5: { id: 5, name: "Dieu si grand", file: "audio/Dieu_si_grand.mp3", date:'2025-04-18' },
-    6: { id: 6, name: "Toujours près de moi", file: "audio/Toujours_pres_de_moi.mp3", date:'2025-04-26' }
+    6: { id: 6, name: "Toujours près de moi", file: "audio/Toujours_pres_de_moi.mp3", date:'2025-04-26' },
+    7: { id: 7, name: "Tu guides mes pas", file: "audio/Tu guides mes pas.mp3", date:'2025-05-10' }
 }
 
 const playlist_remix = {
