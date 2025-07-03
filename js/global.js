@@ -28,7 +28,8 @@ const playlist_remix = {
     2: { id: 2.1, name: "Psaumes 33", file: "audio/remix/Psaumes_33_REMIX.mp3", date:'2025-05-04' },
     3: { id: 4.1, name: "Un horizon meilleur", file: "audio/remix/Un_horizon_meilleur_REMIX.mp3", date:'2025-05-01' },
     4: { id: 5.1, name: "Dieu si grand", file: "audio/remix/Dieu_si_grand_REMIX.mp3", date:'2025-05-05' },
-    5: { id: 7.1, name: "Tu guides mes pas", file: "audio/remix/Tu_guides_mes_pas_REMIX.mp3", date:'2025-06-07' }
+    5: { id: 6.1, name: "Toujours près de moi", file: "audio/remix/Toujours_pres_de_moi_REMIX.mp3", date:'2025-07-03' },
+    6: { id: 7.1, name: "Tu guides mes pas", file: "audio/remix/Tu_guides_mes_pas_REMIX.mp3", date:'2025-06-07' }
 }
 
 let activePlaylist = playlist;
